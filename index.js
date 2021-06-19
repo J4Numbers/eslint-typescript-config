@@ -1,1 +1,2 @@
-module.exports = require('./.eslintrc');
+/* eslint-disable */
+module.exports = require('.eslintrc');

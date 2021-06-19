@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const testFunction = (introduction) => {
+const testFunction = (introduction: string): void => {
   const test = `This is an introduction string: ${introduction}`;
   console.log(test);
 };
@@ -8,14 +8,14 @@ const testFunction = (introduction) => {
 testFunction('Hello World');
 
 // This is a test async function that does things
-const asyncTestFunction = async () => fs.readdirSync(process.cwd());
+const asyncTestFunction = async (): Promise<Array<string>> => fs.readdirSync(process.cwd());
 
-asyncTestFunction()
-  .then((result) => {
+void asyncTestFunction()
+  .then((result: Array<string>) => {
     console.log(result);
   });
 
-const testFunctionToo = (object) => {
+const testFunctionToo = (object: { test?: string }): void => {
   object.test = 'new value';
 };
 
@@ -24,4 +24,4 @@ const testVar = {
   async_test: asyncTestFunction,
 };
 
-console.log(testVar.length);
+console.log(Object.keys(testVar).length);
