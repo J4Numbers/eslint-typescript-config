@@ -1,6 +1,6 @@
 {
   "name": "@j4numbers/eslint-typescript-config",
-  "version": "1.0.2-beta1",
+  "version": "1.0.2",
   "description": "An eslint collection for Typescript",
   "main": "index.js",
   "homepage": "https://github.com/J4Numbers/eslint-typescript-config#readme",
