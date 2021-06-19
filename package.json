@@ -31,12 +31,12 @@
   "author": "J4Numbers <j4numbers@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@j4numbers/eslint-base-config": "^1.2.4",
+    "@j4numbers/eslint-base-config": "^1.2.5",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0"
   },
   "devDependencies": {
     "@types/node": "^15.12.4",
-    "@typescript-eslint/eslint-plugin": "^4.27.0",
     "eslint": "^7.29.0",
     "typescript": "^4.3.4"
   }
