@@ -18,6 +18,7 @@ module.exports = {
 
     // Switch off breaking items in base config
     'brace-style': 'off',
+    'camelcase': 'off',
     'comma-dangle': 'off',
     'comma-spacing': 'off',
     'dot-notation': 'off',
@@ -164,9 +165,14 @@ module.exports = {
       'allowBoolean': true,
     } ],
     '@typescript-eslint/switch-exhaustiveness-check': [ 'error' ],
-    '@typescript-eslint/type-annotation-spacing': [ 'error', {
-      'before': false,
-      'after': true,
-    } ],
+    '@typescript-eslint/type-annotation-spacing': [ 'error' ],
+  },
+
+  'settings': {
+    'import/resolver': {
+      node: {
+        extensions: [ '.js', '.jsx', '.ts', '.tsx' ],
+      },
+    },
   },
 };

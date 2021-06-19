@@ -31,7 +31,7 @@
   "author": "J4Numbers <j4numbers@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@j4numbers/eslint-base-config": "^1.2.3",
+    "@j4numbers/eslint-base-config": "^1.2.4",
     "@typescript-eslint/parser": "^4.27.0"
   },
   "devDependencies": {
