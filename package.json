@@ -1,0 +1,40 @@
+{
+  "name": "@j4numbers/eslint-typescript-config",
+  "version": "1.0.0-beta1",
+  "description": "An eslint collection for Typescript",
+  "main": "index.js",
+  "homepage": "https://github.com/J4Numbers/eslint-typescript-config#readme",
+  "bugs": {
+    "url": "https://github.com/J4Numbers/eslint-typescript-config/issues",
+    "email": "j4numbers@gmail.com"
+  },
+  "files": [
+    ".eslintrc.js",
+    "index.js",
+    "LICENSE",
+    "package.json",
+    "package-lock.json",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "eslint ."
+  },
+  "keywords": [
+    "eslint",
+    "typescript",
+    "style"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/J4Numbers/eslint-typescript-config.git"
+  },
+  "author": "J4Numbers <j4numbers@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@j4numbers/eslint-base-config": "^1.2.3",
+    "@typescript-eslint/parser": "^4.27.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0"
+  }
+}
